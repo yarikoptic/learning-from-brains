@@ -287,7 +287,7 @@ def get_args() -> argparse.Namespace:
         metavar='DIR',
         default='../data/downstream/',
         type=str,
-        help='path where .tar files for fMRI runs wil be stored '
+        help='path where .tar files for fMRI runs will be stored '
              '(default: ../data/downstream)'
     )
     parser.add_argument(
