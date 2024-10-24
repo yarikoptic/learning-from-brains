@@ -60,7 +60,7 @@ def test_adapt_decoding() -> None:
                     'training_style': pre_training_style,
                 }
             )
-        # adapt mdoel
+        # adapt model
         adapt_trainer = run_train_process(
             config={
                     **ADAPT_CONFIG,

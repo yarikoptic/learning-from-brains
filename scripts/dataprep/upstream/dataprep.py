@@ -192,7 +192,7 @@ def get_args() -> argparse.ArgumentParser:
         default=-1,
         type=float,
         help='repetition time / TR of BOLD data (in seconds); '
-             'will be infered from data files, if not set (or set to -1).'
+             'will be inferred from data files, if not set (or set to -1).'
     )
     parser.add_argument(
         '--check-fmriprep-bug',

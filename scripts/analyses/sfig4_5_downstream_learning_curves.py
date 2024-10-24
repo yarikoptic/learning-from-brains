@@ -199,7 +199,7 @@ def sfig_downstream_learning_curves(
 
 def get_argparse() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description='appendix figure 4-5 of the manuscript; downstream adapatation learning curves'
+        description='appendix figure 4-5 of the manuscript; downstream adaptation learning curves'
     )
 
     parser.add_argument(

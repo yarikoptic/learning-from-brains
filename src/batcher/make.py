@@ -45,7 +45,7 @@ def make_batcher(
         run files.
     sample_random_seq: bool
         If True, the sequences are sampled randomly from
-        the data run files, given the spefied
+        the data run files, given the specified
         sequence length (seq_min and seq_max) and the
         specified gap consecutive sequences (bert_seq_gap_min,
         bert_seq_gap_max) for BERT-style training.

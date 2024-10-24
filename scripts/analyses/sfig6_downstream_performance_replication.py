@@ -9,7 +9,7 @@ from fig5_downstream_performance import fig_downstream_performance
 
 
 def sfig_downstream_performance_replication(config: Dict=None) -> None:
-    """Script's main funtion; creates Appendix Figure 6 by wrapping
+    """Script's main function; creates Appendix Figure 6 by wrapping
     fig_downstream_performance() from scripts/analyses/fig5_downstream-performance.py"""
 
     if config is None:

@@ -112,4 +112,4 @@ def make_decoder(
         return LinearBaseline(**kwargs)
     
     else:
-        raise ValueError(f'{architecture}-architecture unkown.')
+        raise ValueError(f'{architecture}-architecture unknown.')

@@ -9,7 +9,7 @@ from sfig4_5_downstream_learning_curves import sfig_downstream_learning_curves
 
 
 def sfig_downstream_learning_curves_replication(config: Dict=None) -> None:
-    """Script's main funtion; creates Appendix Figure 7 by wrapping
+    """Script's main function; creates Appendix Figure 7 by wrapping
     fig_downstream_performance() from scripts/analyses/fig5_downstream-performance.py"""
 
     if config is None:

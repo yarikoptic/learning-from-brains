@@ -73,7 +73,7 @@ We use [WebDataset](https://github.com/webdataset/webdataset) to read data durin
 
 **Upstream:** All upstream data contain three core entries for I) the parcelated BOLD data (`bold.pyd`), II) its repetition time (`t_r.pyd`), and III) a key (`__key__`) indicating the specific subject / task / run that this .tar file corresponds to. 
 
-**Downstream:** Each .tar file of the two downstream datasets contains one sample for each trial of its experiment run. In addition to the three entries listed for the upstream data, each trial also contains information describing the associated mental state. In our downstream adapatation analyses, we utilize the `task_label.pyd` (MDTB data) and `label_across_tasks.pyd` (HCP data) entries to assign numerical labels to each mental state during training. Note that the MDTB data is indicated with its OpenNeuro identifier (`ds002105`) in the `data/downstream/` directory. 
+**Downstream:** Each .tar file of the two downstream datasets contains one sample for each trial of its experiment run. In addition to the three entries listed for the upstream data, each trial also contains information describing the associated mental state. In our downstream adaptation analyses, we utilize the `task_label.pyd` (MDTB data) and `label_across_tasks.pyd` (HCP data) entries to assign numerical labels to each mental state during training. Note that the MDTB data is indicated with its OpenNeuro identifier (`ds002105`) in the `data/downstream/` directory. 
 
 For details on the additional preprocessing applied to [fmriprep](https://fmriprep.org/en/stable/)'s derivatives for each dataset, see the scripts contained in `scripts/dataprep/`.
 

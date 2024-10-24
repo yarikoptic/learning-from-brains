@@ -115,7 +115,7 @@ def test_checkpoint_forward_pass() -> None:
         model.eval()
         loaded_model.eval()
         batch_prepped = model.embedder.prep_batch(batch)
-        # test embdder forward pass
+        # test embedder forward pass
         inputs_embeds = model.embedder(batch=batch_prepped)
         inputs_embeds_loaded = loaded_model.embedder(batch=batch_prepped)
         assert torch.equal(

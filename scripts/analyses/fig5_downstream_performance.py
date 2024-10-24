@@ -123,7 +123,7 @@ def fig_downstream_performance(
 
 def get_args() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description='figure 5 of the manuscript; downstream model adapatation performances'
+        description='figure 5 of the manuscript; downstream model adaptation performances'
     )
 
     parser.add_argument(
